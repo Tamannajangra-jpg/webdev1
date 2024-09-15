@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="url" content="https://easeshort.udeasolutions.com/">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="icon" href="images/easefavicon.png">
+    <title>Home-EaseShort || UDEA Solutions</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css-styles/styles2.css">
+    <script src="js-script/app.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    const accordians=document.querySelectorAll('.accordian');
+
+    accordians.forEach(accordian=>{
+      const icon=accordian.querySelector('.icon');
+      const answer=accordian.querySelector('.answer');
+
+      accordian.addEventListener('click',()=>{
+        icon.classList.toggle('active');
+        answer.classList.toggle('active');
+      });
+    });
+
+    function openQuotePage()
+    {
+      window.location.href="getquote.html";
+    }
+
+    function backtopage()
+    {
+      window.location.href="index.html";
+    }
+    </script>
+
+  </head>
+ <body>
+
+   <section id="title">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-lg navbar-light bg-white">
+      <div class="container d-flex justify-content-center">
+        <div>
+          <a href="index.html"><img src="images/logo.svg" alt="ease-short-img" height="50px" width="50px;"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+       <div class="central">
+        <ul class="navbar-nav">
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color:#6dbfb8; padding-top:3px;">
+         Products
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#"><img height="5%" width="5%" src="images/urlshort.svg" alt="" style="color:#808080;"> URL shortener</a>
+         <p>Customize,share and track links</p>
+         <a class="dropdown-item" href="#"><i class="bi bi-bar-chart-fill"></i><svg xmlns="http://www.w3.org/2000/svg" style="color:#808080;" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+          <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+          </svg> Analytics</a>
+          <p>A central pace to track and analyze the performance of all short links and QR Codes</p>
+         <a class="dropdown-item" href="#"><i class="bi bi-upc-scan"></i><svg xmlns="http://www.w3.org/2000/svg" style="color:#808080;" width="16" height="16" fill="currentColor" class="bi bi-upc-scan" viewBox="0 0 16 16">
+            <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5M3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0z"/>
+           </svg> 2D Barcodes</a>
+          <p>Add aGlobal Trade Item number (GTN) to QR codesdesigned for packaging</p>
+       </div>
+     </li>
+         <li class="navbar-item">
+           <a class="navbar-link" href="about-us.html">About Us</a>
+         </li>
+         <li class="navbar-item">
+           <a class="navbar-link" href="contact-us.html">Contact Us</a>
+         </li>
+        </ul>
+        </div>
+        <div class="loginquote">
+           <a  href="login.html">Log in</a>
+           <button onclick="openQuotePage()" class="btn">Get a Quote</button>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="main-content">
+    <div class="mid">
+      <div class="left-img">
+        <img src="images/hero-bg.svg" alt="">
+      </div>
+
+      <img class="baseimg" src="images/Union.svg" alt="">
+
+      <div class="matter">
+        <h5>#1 PLATFORM FOR URL'S</h5>
+        <h1>Shorten and Share Your Link's New Best Friend</h1>
+        <p> Unlock seamless sharing with our efficient URL shortener,designed for marketers,infulencers,and everyday users.</p>
+      </div>
+
+      <div class="right-img">
+        <img src="images/hero.svg" alt="">
+      </div>
+
+      <div class="matter2">
+        <div class="url">
+        <input type="text" id="urlinput" class="url-input" placeholder="Example: http://super-long-link.com/shorten-it">
+        <p  id="message"></p>
+        <button type="button" id="validatebutton" class="btn">Sign up and get your link</button>
+    </div>
+      </div>
+
+      <div class="titles">
+        <div class="row">
+          <div class="col-3" >URL'S <br/><b>30000+</b></div>
+          <div class="col-3">Title 1 <br/><b>5000+</b></div>
+          <div class="col-3">Title 2 <br/><b>25000+</b></div>
+          <div class="col-3">Title 3 <br/><b>10000+</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="joint">
+   <img src="images/company-bg.svg" alt="">
+   <h4 class="trust">Trusted by the best companies</h4>
+   <div class="comp">
+     <img src="images/Apple.svg" alt="">
+     <img src="images/AT&T.svg" alt="">
+     <img src="images/McDonald.svg" alt="">
+     <img src="images/Sony.svg" alt="">
+     <img src="images/Meta.svg" alt="">
+    </div>
+  </section>
+
+  <section id="over">
+    <div class="grey">
+     <h2>Plan for Your Need</h2>
+     <h3>Select from best plan,ensuring a perfect match.Need more or less? Customize your subscription for a seamless fit!</h3>
+    </div>
+    <div class="cards">
+      <div class="row">
+        <div class="col-lg-3" style="background-color:white" >
+          <img src="images/icon.svg" alt="">
+          <h3>Basic</h3>
+          <p> Best for personal use.</p>
+          <br/><br/>
+          <h1>$20</h1><h6>/per month</h6>
+          <button class="btn"type="button" name="button" onclick="backtopage()">Get Started</button>
+          <h3>Features</h3>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Employee directory</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Task the management</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Calender integration</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Files storage</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Communication tools</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Reporting and analysis</p>
+        </div>
+
+        <div class="col-lg-3"style="background-color: #069da4;">
+          <img src="images/platformicon.svg" alt="">
+          <h3 style="color:white;">Enterprise</h3>
+          <p style="color:white;"> For large teams and corportaions.</p>
+          <br/><br/>
+          <h1 style="color:white;">$120</h1><h6 style="color:white;" >/per month</h6>
+          <button class="btn" type="button" name="button"  onclick="backtopage()" style="background:white;color:black;">Get Started</button>
+          <h3 style="color:white;">Features</h3>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;"> advanced Employee directory</p>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;">Project management</p>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;">Resourse scheduling</p>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;">Version control</p>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;">Team Collaboration</p>
+          <img src="images/check-vector-white.svg" alt="" >
+          <p style="color:white;">Advanced analysis</p>
+        </div>
+
+        <div class="col-lg-3"style="background-color:white">
+          <img src="images/icon.svg" alt="">
+          <h3>Business</h3>
+          <p> Best for Business owners.</p>
+          <br/><br/>
+          <h1>$240</h1><h6>/per month</h6>
+          <button class="btn"type="button" name="button"  onclick="backtopage()" >Get Started</button>
+          <h3>Features</h3>
+            <img src="images/check-vector-grey.svg" alt="" >
+            <p>Customizable Employee directory</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Client Project management</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Client meeting schedule</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Compliance Tracking</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Client Communication</p>
+          <img src="images/check-vector-grey.svg" alt="" >
+          <p>Create Custom reports tailored</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="earth">
+    <div class="aboveblue">
+      <div class="globe">
+        <img src="images/globe.svg" alt="">
+      </div>
+
+      <div class="globematter">
+        <h1>500K</h1>
+        <p>Global paying customers</p>
+        <hr>
+        <h1>256M</h1>
+        <p>links and QR codes created monthly</p>
+        <hr>
+        <h1>10B</h1>
+        <p>&emsp;&emsp;Connections(clicks and scans) monthly</p>
+        <hr>
+        <h1>800+</h1>
+        <p>&emsp;app integrations</p>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <section id="asked">
+      <div class="wrapper">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+
+      <div class="accordian">
+        <div class="question">
+          <i class="icon bi bi-chevron-up"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+          </svg>
+        <h4>  What is a URL shortener?</h4>
+        </div>
+        <div class="answer">
+          <p>A URL shortener, also known as a link shortener, seems like a simple tool, but it is a service that can have a dramatic impact on your marketing efforts.</p>
+          <p>Link shorteners work by transforming any long URL into a shorter, more readable link. When a user clicks the shortened version, they’re automatically forwarded to the destination URL.</p>
+          <p>Think of a short URL as a more descriptive and memorable nickname for your long webpage address. You can, for example, use a short URL like bit.ly/CelebrateEase Short so people will have a good idea about where your link will lead before they click it.</p>
+          <p>If you’re contributing content to the online world, you need a URL shortener.</p>
+          <p>Make your URLs stand out with our easy to use free link shortener above.</p>
+        </div>
+      </div>
+
+      <div class="accordian">
+        <div class="question">
+          <i class=" icon bi bi-chevron-up"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+         <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+         </svg>
+          <h4>Benefits of a short URL</h4>
+        </div>
+        <div class="answer">
+          <p>How many people can even remember a long web address, especially if it has tons of characters and symbols? A short URL can make your link more memorable. Not only does it allow people to easily recall and share your link with others, it can also dramatically improve traffic to your content.</p>
+          <p>On a more practical side, a short URL is also easier to incorporate into your collateral – whether you’re looking to engage with your customers offline or online.</p>
+          <p>Ease Short is the best URL shortener for everyone, from influencers to small brands to large enterprises, who are looking for a simple way to create, track and manage their links.</p>
+          <p>Find a plan that works for yo</p>
+        </div>
+      </div>
+
+      <div class="accordian">
+        <div class="question">
+          <i class="icon bi bi-chevron-up"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+          </svg>
+        <h4>  What is a custom URL shortener?</h4>
+      </div>
+        <div class="answer">
+          <p>A custom URL shortener, sometimes referred to as a branded URL shortener, lets you brand your links.</p>
+          <p>For example, instead of bit.ly/2m75BWD, you could use a custom short URL like yourbrnd.co/2m75BWD.</p>
+          <p>There are several benefits of branding your short links. Branded links build trust between your audience and your business, drive more clicks, give your audience a preview of where they are being taken and increase brand awareness.</p>
+          <p>A link shortening service that includes custom short URLs is vital to improving audience engagement with your communications. A short URL is good, but a custom URL works every time.</p>
+        </div>
+      </div>
+
+      <div class="accordian">
+        <div class="question">
+        <i class="icon bi bi-chevron-up"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+      </svg>
+          <h4>Why choose Ease Short?</h4>
+        </div>
+        <div class="answer">
+          <p>Whether you’re sharing one link or scan or millions, our platform was built to help you make every point of connection between your content and your audience ignite action.</p>
+          <p>It’s why the most recognized brands in the world love our platform.</p>
+          <p>Get started today</p>
+        </div>
+      </div>
+
+  <section>
+
+  <section id="blue">
+    <div class="getstart">
+      <h1 >More than a free link shortener</h1>
+      <button class="btn" type="button" name="button" onclick="backtopage()">Get started</button>
+    </div>
+  </section>
+
+  <div class="forindex">
+  <section id="end">
+    <div class="details">
+      <div class="row">
+        <div class="col-md-3" >
+          <h4>Why Ease Short?</h4>
+          <p>Integrations & API</p>
+          <p>Enterprise Class</p>
+          <p>Pricing</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Products</h4>
+          <p>URL Shortener</p>
+          <p>QR Codes</p>
+          <p>Link-in-bio</p>
+          <p>Analytics</p>
+          <p>2D Barcodes</p>
+        </div>
+        <div class="col-md-3" >
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="index.html">Cookie Policy</a>
+          <a href="details.html">Terms of Service</a>
+          <a href="details.html">Acceptable Use Policy</a>
+          <p>Code of Conduct</p>
+        </div>
+        <div class="col-md-3" >
+          <p><img height="20%" width="20%" src="images/logo.svg" alt=""><br/><img height="5%" width="5%" src="images/newcopyright.png" alt="">2024 Ease Short | WeWork Forum, DLF Cyber City, DLF Phase 3, Sector 24, Gurugram, Haryana - India.
+          <br/> &emsp;<i class="bi bi-facebook"></i><svg xmlns="http://www.w3.org/2000/svg"  onclick="backtopage()"width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+         </svg>
+
+         <i class="bi bi-instagram"></i><svg xmlns="http://www.w3.org/2000/svg" onclick="backtopage()" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+       </svg>
+
+         <i class="bi bi-linkedin"></i><svg xmlns="http://www.w3.org/2000/svg" onclick="backtopage()"width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+         </svg>
+
+         <i class="bi bi-twitter"></i><svg xmlns="http://www.w3.org/2000/svg"onclick="backtopage()" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+         </svg>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+ </body>
+</html>
